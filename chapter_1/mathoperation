@@ -1,0 +1,22 @@
+#!/bin/bash
+no1=4;
+no2=5;
+
+# let 不加 $
+let res=no1+no2
+echo $res
+let no1++
+echo $no1
+let no2--
+echo $no2
+
+# [] 加$
+res=$[no2+1]
+echo $res
+
+# (()) 变量加$
+res=$[no2+21]
+echo $res
+
+# bc 浮点数运算
+echo "4*0.56" | bc

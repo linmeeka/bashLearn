@@ -1,0 +1,8 @@
+     1	filedescriptor.sh
+     2	mathoperation
+     3	out.txt
+     4	pipeline.sh
+     5	terminal.sh
+     6	time_take.sh
+     7	tmp.txt
+     8	variable

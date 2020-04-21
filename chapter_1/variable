@@ -1,0 +1,24 @@
+#!/bin/bash
+fruit=apples
+count=5
+#echo "we have $count ${fruit}(s)" # $引用变量，加不加{}都可以
+
+#echo $PATH # PATH:环境变量 可执行文件目录，从左到右依次搜索
+#echo $LD_LIBRARY_PATH # 库文件目录
+#export PATH="$PAHT:/home/usr/bin" # 添加新的环境变量，安装新的app时，将.bin目录添加到PATH,lib路径添加到$LD_LIBRARY_PATH
+
+#echo ${#fruit} # 获取变量值长(字符串长度)
+
+# 当前用的是哪个shell
+# echo $SHELL 
+# echo $0
+
+# 设置bash提示字符串（打开终端最左那个）
+# cat ~/.bashrc | grep PS1 # 输出bashrc里设置这个的代码
+
+
+
+
+
+
+
