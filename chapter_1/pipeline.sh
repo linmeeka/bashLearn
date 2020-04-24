@@ -15,5 +15,5 @@ cmd_out=`ls |  cat -n`
 
 # 子shell
 pwd
-(cd /bin; ls); #子shell，独立进程，与当前shell无关
+(cd /bin; ls); #子shell，括号内语句，独立进程，与当前shell无关
 pwd

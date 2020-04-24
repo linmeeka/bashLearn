@@ -1,0 +1,892 @@
+脚本启动于 2020年04月23日 星期四 12时41分51秒
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ echo '1'
+1
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ echo '1'./IFS.sh [1Pecho '1'[1P'2'
+2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ s[Kexit
+exit
+
+脚本完成，于 2020年04月23日 星期四 12时42分19秒
+脚本启动于 2020年04月23日 星期四 12时41分12秒
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ script -t 2> timing.log -a output.session
+脚本已启动，文件为 output.session
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ echo '1'
+1
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ echo '1'./IFS.sh [1Pecho '1'[1P'2'
+2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ s[Kexit
+exit
+脚本完成，文件为  output.session
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ scriptreplay timing.log output.session
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ echo '1'
+1
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ echo '1'./IFS.sh [1Pecho '1'[1P'2'
+2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ s[Kexit
+exit
+
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ chmod a+x find.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+./find.sh: 行 2: fiid: 未找到命令
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../chapter_1/IFS.sh
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_1/filedescriptor.sh
+../chapter_1/mathoperation
+../chapter_1/pipeline.sh
+../chapter_1/time_take.sh
+../chapter_1/terminal.sh
+../chapter_1/variable
+../.git
+../.git/refs
+../.git/refs/tags
+../.git/refs/remotes
+../.git/refs/remotes/origin
+../.git/refs/remotes/origin/master
+../.git/refs/heads
+../.git/refs/heads/master
+../.git/logs
+../.git/logs/refs
+../.git/logs/refs/remotes
+../.git/logs/refs/remotes/origin
+../.git/logs/refs/remotes/origin/master
+../.git/logs/refs/heads
+../.git/logs/refs/heads/master
+../.git/logs/HEAD
+../.git/branches
+../.git/config
+../.git/hooks
+../.git/hooks/update.sample
+../.git/hooks/pre-rebase.sample
+../.git/hooks/pre-applypatch.sample
+../.git/hooks/pre-push.sample
+../.git/hooks/post-update.sample
+../.git/hooks/applypatch-msg.sample
+../.git/hooks/prepare-commit-msg.sample
+../.git/hooks/pre-commit.sample
+../.git/hooks/commit-msg.sample
+../.git/index
+../.git/info
+../.git/info/exclude
+../.git/objects
+../.git/objects/70
+../.git/objects/70/f4af6ce7d557dc0248580f00341ea7fa180113
+../.git/objects/21
+../.git/objects/21/ce1f67481da5a057ccbe808f47662103827704
+../.git/objects/0a
+../.git/objects/0a/075e0575737077b0f0ae0da49ab0ab20f7a4e8
+../.git/objects/37
+../.git/objects/37/3d6ccbcf9344ab5775ffc9eee538615b373ef5
+../.git/objects/77
+../.git/objects/77/75a3e3a0419ea32f7bd755280f92d20e9efc5c
+../.git/objects/3c
+../.git/objects/3c/9a933d20f2234dc79fa81f81a5d729b2d53c19
+../.git/objects/6e
+../.git/objects/6e/2d41ea6c1f5176b209f4c54b3a2ca6105769a1
+../.git/objects/d4
+../.git/objects/d4/63c5dde54b635edc6a396c9e02e69a38a4b753
+../.git/objects/info
+../.git/objects/pack
+../.git/objects/03
+../.git/objects/03/41d90b04800cc66087682b6376adb883e405f4
+../.git/objects/17
+../.git/objects/17/e53fcb12a5d81c9eb61be77a2f2854cc51b950
+../.git/objects/e1
+../.git/objects/e1/68a0f133c682515e55b1b488f56061693d5eac
+../.git/objects/e7
+../.git/objects/e7/f5e0372c27b4389517a2d5df2fbb4cbb75e9f7
+../.git/description
+../.git/HEAD
+../.git/COMMIT_EDITMSG
+../chapter_2
+../chapter_2/output.session
+../chapter_2/file.txt
+../chapter_2/find.sh
+../chapter_2/file1.txt
+../chapter_2/timing.log
+../chapter_2/cat.sh
+../chapter_2/script_scriptreplay.sh
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../chapter_1/IFS.sh
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_1/filedescriptor.sh
+../chapter_1/mathoperation
+../chapter_1/pipeline.sh
+../chapter_1/time_take.sh
+../chapter_1/terminal.sh
+../chapter_1/variable
+../.git
+../.git/refs
+../.git/refs/tags
+../.git/refs/remotes
+../.git/refs/remotes/origin
+../.git/refs/remotes/origin/master
+../.git/refs/heads
+../.git/refs/heads/master
+../.git/logs
+../.git/logs/refs
+../.git/logs/refs/remotes
+../.git/logs/refs/remotes/origin
+../.git/logs/refs/remotes/origin/master
+../.git/logs/refs/heads
+../.git/logs/refs/heads/master
+../.git/logs/HEAD
+../.git/branches
+../.git/config
+../.git/hooks
+../.git/hooks/update.sample
+../.git/hooks/pre-rebase.sample
+../.git/hooks/pre-applypatch.sample
+../.git/hooks/pre-push.sample
+../.git/hooks/post-update.sample
+../.git/hooks/applypatch-msg.sample
+../.git/hooks/prepare-commit-msg.sample
+../.git/hooks/pre-commit.sample
+../.git/hooks/commit-msg.sample
+../.git/index
+../.git/info
+../.git/info/exclude
+../.git/objects
+../.git/objects/70
+../.git/objects/70/f4af6ce7d557dc0248580f00341ea7fa180113
+../.git/objects/21
+../.git/objects/21/ce1f67481da5a057ccbe808f47662103827704
+../.git/objects/0a
+../.git/objects/0a/075e0575737077b0f0ae0da49ab0ab20f7a4e8
+../.git/objects/37
+../.git/objects/37/3d6ccbcf9344ab5775ffc9eee538615b373ef5
+../.git/objects/77
+../.git/objects/77/75a3e3a0419ea32f7bd755280f92d20e9efc5c
+../.git/objects/3c
+../.git/objects/3c/9a933d20f2234dc79fa81f81a5d729b2d53c19
+../.git/objects/6e
+../.git/objects/6e/2d41ea6c1f5176b209f4c54b3a2ca6105769a1
+../.git/objects/d4
+../.git/objects/d4/63c5dde54b635edc6a396c9e02e69a38a4b753
+../.git/objects/info
+../.git/objects/pack
+../.git/objects/03
+../.git/objects/03/41d90b04800cc66087682b6376adb883e405f4
+../.git/objects/17
+../.git/objects/17/e53fcb12a5d81c9eb61be77a2f2854cc51b950
+../.git/objects/e1
+../.git/objects/e1/68a0f133c682515e55b1b488f56061693d5eac
+../.git/objects/e7
+../.git/objects/e7/f5e0372c27b4389517a2d5df2fbb4cbb75e9f7
+../.git/description
+../.git/HEAD
+../.git/COMMIT_EDITMSG
+../chapter_2
+../chapter_2/output.session
+../chapter_2/file.txt
+../chapter_2/find.sh
+../chapter_2/file1.txt
+../chapter_2/timing.log
+../chapter_2/cat.sh
+../chapter_2/script_scriptreplay.sh
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_2/file.txt
+../chapter_2/file1.txt
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../chapter_1/IFS.sh
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_1/filedescriptor.sh
+../chapter_1/mathoperation
+../chapter_1/pipeline.sh
+../chapter_1/time_take.sh
+../chapter_1/terminal.sh
+../chapter_1/variable
+../.git
+../.git/refs
+../.git/refs/tags
+../.git/refs/remotes
+../.git/refs/remotes/origin
+../.git/refs/remotes/origin/master
+../.git/refs/heads
+../.git/refs/heads/master
+../.git/logs
+../.git/logs/refs
+../.git/logs/refs/remotes
+../.git/logs/refs/remotes/origin
+../.git/logs/refs/remotes/origin/master
+../.git/logs/refs/heads
+../.git/logs/refs/heads/master
+../.git/logs/HEAD
+../.git/branches
+../.git/config
+../.git/hooks
+../.git/hooks/update.sample
+../.git/hooks/pre-rebase.sample
+../.git/hooks/pre-applypatch.sample
+../.git/hooks/pre-push.sample
+../.git/hooks/post-update.sample
+../.git/hooks/applypatch-msg.sample
+../.git/hooks/prepare-commit-msg.sample
+../.git/hooks/pre-commit.sample
+../.git/hooks/commit-msg.sample
+../.git/index
+../.git/info
+../.git/info/exclude
+../.git/objects
+../.git/objects/70
+../.git/objects/70/f4af6ce7d557dc0248580f00341ea7fa180113
+../.git/objects/21
+../.git/objects/21/ce1f67481da5a057ccbe808f47662103827704
+../.git/objects/0a
+../.git/objects/0a/075e0575737077b0f0ae0da49ab0ab20f7a4e8
+../.git/objects/37
+../.git/objects/37/3d6ccbcf9344ab5775ffc9eee538615b373ef5
+../.git/objects/77
+../.git/objects/77/75a3e3a0419ea32f7bd755280f92d20e9efc5c
+../.git/objects/3c
+../.git/objects/3c/9a933d20f2234dc79fa81f81a5d729b2d53c19
+../.git/objects/6e
+../.git/objects/6e/2d41ea6c1f5176b209f4c54b3a2ca6105769a1
+../.git/objects/d4
+../.git/objects/d4/63c5dde54b635edc6a396c9e02e69a38a4b753
+../.git/objects/info
+../.git/objects/pack
+../.git/objects/03
+../.git/objects/03/41d90b04800cc66087682b6376adb883e405f4
+../.git/objects/17
+../.git/objects/17/e53fcb12a5d81c9eb61be77a2f2854cc51b950
+../.git/objects/e1
+../.git/objects/e1/68a0f133c682515e55b1b488f56061693d5eac
+../.git/objects/e7
+../.git/objects/e7/f5e0372c27b4389517a2d5df2fbb4cbb75e9f7
+../.git/description
+../.git/HEAD
+../.git/COMMIT_EDITMSG
+../chapter_2
+../chapter_2/output.session
+../chapter_2/file.txt
+../chapter_2/find.sh
+../chapter_2/file1.txt
+../chapter_2/timing.log
+../chapter_2/cat.sh
+../chapter_2/script_scriptreplay.sh
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_2/file.txt
+../chapter_2/file1.txt
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_2/output.session
+../chapter_2/file.txt
+../chapter_2/file1.txt
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../chapter_1/out.txt
+../chapter_2/output.session
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../chapter_1/IFS.sh
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_1/filedescriptor.sh
+../chapter_1/mathoperation
+../chapter_1/pipeline.sh
+../chapter_1/time_take.sh
+../chapter_1/terminal.sh
+../chapter_1/variable
+../.git
+../.git/refs
+../.git/refs/tags
+../.git/refs/remotes
+../.git/refs/remotes/origin
+../.git/refs/remotes/origin/master
+../.git/refs/heads
+../.git/refs/heads/master
+../.git/logs
+../.git/logs/refs
+../.git/logs/refs/remotes
+../.git/logs/refs/remotes/origin
+../.git/logs/refs/remotes/origin/master
+../.git/logs/refs/heads
+../.git/logs/refs/heads/master
+../.git/logs/HEAD
+../.git/branches
+../.git/config
+../.git/hooks
+../.git/hooks/update.sample
+../.git/hooks/pre-rebase.sample
+../.git/hooks/pre-applypatch.sample
+../.git/hooks/pre-push.sample
+../.git/hooks/post-update.sample
+../.git/hooks/applypatch-msg.sample
+../.git/hooks/prepare-commit-msg.sample
+../.git/hooks/pre-commit.sample
+../.git/hooks/commit-msg.sample
+../.git/index
+../.git/info
+../.git/info/exclude
+../.git/objects
+../.git/objects/70
+../.git/objects/70/f4af6ce7d557dc0248580f00341ea7fa180113
+../.git/objects/21
+../.git/objects/21/ce1f67481da5a057ccbe808f47662103827704
+../.git/objects/0a
+../.git/objects/0a/075e0575737077b0f0ae0da49ab0ab20f7a4e8
+../.git/objects/37
+../.git/objects/37/3d6ccbcf9344ab5775ffc9eee538615b373ef5
+../.git/objects/77
+../.git/objects/77/75a3e3a0419ea32f7bd755280f92d20e9efc5c
+../.git/objects/3c
+../.git/objects/3c/9a933d20f2234dc79fa81f81a5d729b2d53c19
+../.git/objects/6e
+../.git/objects/6e/2d41ea6c1f5176b209f4c54b3a2ca6105769a1
+../.git/objects/d4
+../.git/objects/d4/63c5dde54b635edc6a396c9e02e69a38a4b753
+../.git/objects/info
+../.git/objects/pack
+../.git/objects/03
+../.git/objects/03/41d90b04800cc66087682b6376adb883e405f4
+../.git/objects/17
+../.git/objects/17/e53fcb12a5d81c9eb61be77a2f2854cc51b950
+../.git/objects/e1
+../.git/objects/e1/68a0f133c682515e55b1b488f56061693d5eac
+../.git/objects/e7
+../.git/objects/e7/f5e0372c27b4389517a2d5df2fbb4cbb75e9f7
+../.git/description
+../.git/HEAD
+../.git/COMMIT_EDITMSG
+../chapter_2
+../chapter_2/output.session
+../chapter_2/file.txt
+../chapter_2/find.sh
+../chapter_2/file1.txt
+../chapter_2/timing.log
+../chapter_2/cat.sh
+../chapter_2/script_scriptreplay.sh
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_1/mathoperation
+../chapter_1/variable
+../.git
+../.git/refs
+../.git/refs/tags
+../.git/refs/remotes
+../.git/refs/remotes/origin
+../.git/refs/remotes/origin/master
+../.git/refs/heads
+../.git/refs/heads/master
+../.git/logs
+../.git/logs/refs
+../.git/logs/refs/remotes
+../.git/logs/refs/remotes/origin
+../.git/logs/refs/remotes/origin/master
+../.git/logs/refs/heads
+../.git/logs/refs/heads/master
+../.git/logs/HEAD
+../.git/branches
+../.git/config
+../.git/hooks
+../.git/hooks/update.sample
+../.git/hooks/pre-rebase.sample
+../.git/hooks/pre-applypatch.sample
+../.git/hooks/pre-push.sample
+../.git/hooks/post-update.sample
+../.git/hooks/applypatch-msg.sample
+../.git/hooks/prepare-commit-msg.sample
+../.git/hooks/pre-commit.sample
+../.git/hooks/commit-msg.sample
+../.git/index
+../.git/info
+../.git/info/exclude
+../.git/objects
+../.git/objects/70
+../.git/objects/70/f4af6ce7d557dc0248580f00341ea7fa180113
+../.git/objects/21
+../.git/objects/21/ce1f67481da5a057ccbe808f47662103827704
+../.git/objects/0a
+../.git/objects/0a/075e0575737077b0f0ae0da49ab0ab20f7a4e8
+../.git/objects/37
+../.git/objects/37/3d6ccbcf9344ab5775ffc9eee538615b373ef5
+../.git/objects/77
+../.git/objects/77/75a3e3a0419ea32f7bd755280f92d20e9efc5c
+../.git/objects/3c
+../.git/objects/3c/9a933d20f2234dc79fa81f81a5d729b2d53c19
+../.git/objects/6e
+../.git/objects/6e/2d41ea6c1f5176b209f4c54b3a2ca6105769a1
+../.git/objects/d4
+../.git/objects/d4/63c5dde54b635edc6a396c9e02e69a38a4b753
+../.git/objects/info
+../.git/objects/pack
+../.git/objects/03
+../.git/objects/03/41d90b04800cc66087682b6376adb883e405f4
+../.git/objects/17
+../.git/objects/17/e53fcb12a5d81c9eb61be77a2f2854cc51b950
+../.git/objects/e1
+../.git/objects/e1/68a0f133c682515e55b1b488f56061693d5eac
+../.git/objects/e7
+../.git/objects/e7/f5e0372c27b4389517a2d5df2fbb4cbb75e9f7
+../.git/description
+../.git/HEAD
+../.git/COMMIT_EDITMSG
+../chapter_2
+../chapter_2/output.session
+../chapter_2/file.txt
+../chapter_2/file1.txt
+../chapter_2/timing.log
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../.git
+../chapter_2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../.git
+../.git/refs
+../.git/refs/tags
+../.git/refs/remotes
+../.git/refs/remotes/origin
+../.git/refs/heads
+../.git/logs
+../.git/logs/refs
+../.git/logs/refs/remotes
+../.git/logs/refs/remotes/origin
+../.git/logs/refs/heads
+../.git/branches
+../.git/hooks
+../.git/info
+../.git/objects
+../.git/objects/70
+../.git/objects/21
+../.git/objects/0a
+../.git/objects/37
+../.git/objects/77
+../.git/objects/3c
+../.git/objects/6e
+../.git/objects/d4
+../.git/objects/info
+../.git/objects/pack
+../.git/objects/03
+../.git/objects/17
+../.git/objects/e1
+../.git/objects/e7
+../chapter_2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+find: 缺少“-exec”参数
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+find: 缺少“-exec”参数
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+find: 缺少“-exec”参数
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../.git
+../chapter_2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../.git
+../.git/refs
+../.git/refs/tags
+../.git/refs/remotes
+../.git/refs/remotes/origin
+../.git/refs/heads
+../.git/logs
+../.git/logs/refs
+../.git/logs/refs/remotes
+../.git/logs/refs/remotes/origin
+../.git/logs/refs/heads
+../.git/branches
+../.git/hooks
+../.git/info
+../.git/objects
+../.git/objects/70
+../.git/objects/21
+../.git/objects/0a
+../.git/objects/37
+../.git/objects/77
+../.git/objects/3c
+../.git/objects/6e
+../.git/objects/d4
+../.git/objects/info
+../.git/objects/pack
+../.git/objects/03
+../.git/objects/17
+../.git/objects/e1
+../.git/objects/e7
+../chapter_2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../.git
+../chapter_2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../.git
+../chapter_2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../.git
+../chapter_2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../.git
+../chapter_2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../
+../chapter_1
+../.git
+../chapter_2
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../chapter_1/IFS.sh
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_1/filedescriptor.sh
+../chapter_1/mathoperation
+../chapter_1/pipeline.sh
+../chapter_1/time_take.sh
+../chapter_1/terminal.sh
+../chapter_1/variable
+../.git
+../chapter_2/output.session
+../chapter_2/out.txt
+../chapter_2/file.txt
+../chapter_2/find.sh
+../chapter_2/xargs.sh
+../chapter_2/file1.txt
+../chapter_2/timing.log
+../chapter_2/cat.sh
+../chapter_2/script_scriptreplay.sh
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../chapter_1/IFS.sh
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_1/filedescriptor.sh
+../chapter_1/mathoperation
+../chapter_1/pipeline.sh
+../chapter_1/time_take.sh
+../chapter_1/terminal.sh
+../chapter_1/variable
+../.git
+../chapter_2/output.session
+../chapter_2/out.txt
+../chapter_2/file.txt
+../chapter_2/find.sh
+../chapter_2/xargs.sh
+../chapter_2/file1.txt
+../chapter_2/timing.log
+../chapter_2/cat.sh
+../chapter_2/script_scriptreplay.sh
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh 
+../chapter_1/IFS.sh
+../chapter_1/out.txt
+../chapter_1/tmp.txt
+../chapter_1/filedescriptor.sh
+../chapter_1/mathoperation
+../chapter_1/pipeline.sh
+../chapter_1/time_take.sh
+../chapter_1/terminal.sh
+../chapter_1/variable
+../.git
+../chapter_2/output.session
+../chapter_2/out.txt
+../chapter_2/file.txt
+../chapter_2/find.sh
+../chapter_2/xargs.sh
+../chapter_2/file1.txt
+../chapter_2/timing.log
+../chapter_2/cat.sh
+../chapter_2/script_scriptreplay.sh
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./xfind.sh [8@chmod a+x [C[C[C[C[C[C[C[C[8P./[C[C[C[C[C[C[C[Cx[Kaa[K[K[K[K[Kls
+[0m[01;32mcat.sh[0m  file1.txt  file.txt  [01;32mfind.sh[0m  output.session  out.txt  [01;32mscript_scriptreplay.sh[0m  timing.log  xargs.sh
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ chmod x+a xargs.sh 
+chmod: 无效模式："x+a"
+Try 'chmod --help' for more information.
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ chmod x+a xargs.sh [1P[1P[1P[1@a[1@+[1@x
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./xargs.sh 
+tmp1 tmp2 tmp3 tmp4
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./xargs.sh 
+tmp1 tmp2 tmp3 tmp4
+tmp1 tmp2 tmp3
+tmp4
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./xargs.sh 
+tmp1 tmp2 tmp3 tmp4
+tmp1 tmp2 tmp3
+tmp4
+a a a a a
+
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./xargs.sh 
+tmp1 tmp2 tmp3 tmp4
+tmp1 tmp2 tmp3
+tmp4
+a a
+a a
+a
+
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ echo[K[K[K[Kcho[Kmod a+x cecho.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./cecho.sh arg1
+arg1#
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./cecho.sh arg1 arg2
+arg1 arg2#
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./ae[K[Kxargs.sh 
+tmp1 tmp2 tmp3 tmp4
+tmp1 tmp2 tmp3
+tmp4
+a a
+a a
+a
+
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./xargs.sh 
+tmp1 tmp2 tmp3 tmp4
+tmp1 tmp2 tmp3
+tmp4
+a a
+a a
+a
+
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./xargs.sh 
+tmp1 tmp2 tmp3 tmp4
+tmp1 tmp2 tmp3
+tmp4
+a a
+a a
+a
+
+a1#
+a2#
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./xargs.sh 
+tmp1 tmp2 tmp3 tmp4
+tmp1 tmp2 tmp3
+tmp4
+a a
+a a
+a
+
+a1#
+a2#
+a3#
+a4#
+a1 a2 a3#
+a4#
+a1 a2 a3 a4#
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./xargs.sh 
+tmp1 tmp2 tmp3 tmp4
+tmp1 tmp2 tmp3
+tmp4
+a a
+a a
+a
+
+a1#
+a2#
+a3#
+a4#
+a1 a2 a3#
+a4#
+a1 a2 a3 a4#
+ww a1#
+ww a2#
+ww a3#
+ww a4#
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./xargs.sh 
+tmp1 tmp2 tmp3 tmp4
+tmp1 tmp2 tmp3
+tmp4
+a a
+a a
+a
+
+a1#
+a2#
+a3#
+a4#
+a1 a2 a3#
+a4#
+a1 a2 a3 a4#
+ww a1#
+ww a2#
+ww a3#
+ww a4#
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ chmod t[Ka+x tr.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./r[Kte[Kr.sh 
+abdcds
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./tr.sh 
+abdcds
+BDE
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./tr.sh 
+abdcds
+BDE
+AC]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./tr.sh 
+abdcds
+BDE
+ACABD
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ chmod sro[K[K[Ka+X s[K[K[Kx sort_uniq.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./sort_uniq.sh 
+bash: ./sort_uniq.sh: /bib/bash: 解释器错误: 没有那个文件或目录
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./sort_uniq.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./sort_uniq.sh 
+
+tmp1
+tmp2
+        tmp3
+        tmp4
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./sort_uniq.sh 
+
+t
+tmp1
+tmp2
+        tmp3
+        tmp4
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./sort_uniq.sh 
+
+t
+tmp1
+tmp2
+        tmp3
+        tmp4
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./sort_uniq.sh 
+
+ss
+t
+tmp
+tmp1
+tmp2
+        tmp3
+        tmp4
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ chmod a+x filename.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./find.sh [K[K[K[K[K[K[K[Kfilename.sh 
+name
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./filename.sh 
+file
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./filename.sh 
+fil1e
+
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./filename.sh 
+file
+jpg
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ chn[Km[K[K[Kchmod a+x rename.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+rename find . -iname *.png -o -iname *.jpg -type f -maxdepth 1 to image-1.jpg -type f -maxdepth 1
+mv: 无法获取'find . -iname *.png -o -iname *.jpg -type f -maxdepth 1' 的文件状态(stat): 没有那个文件或目录
+find: 路径必须在表达式之前: name
+用法: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+rename find . -iname *.txt -o -iname *.jpg -type f -maxdepth 1 to image-1.jpg -type f -maxdepth 1
+mv: 无法获取'find . -iname *.txt -o -iname *.jpg -type f -maxdepth 1' 的文件状态(stat): 没有那个文件或目录
+find: 路径必须在表达式之前: name
+用法: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+rename {find to image-1.{find
+mv: 无法获取'{find' 的文件状态(stat): 没有那个文件或目录
+rename . to image-2.
+mv: 无法将'.' 移动至'image-2.': 设备或资源忙
+rename -iname to image-3.-iname
+mv: 不适用的选项 -- a
+Try 'mv --help' for more information.
+rename *.txt to image-4.txt
+mv: 无法获取'*.txt' 的文件状态(stat): 没有那个文件或目录
+rename -o to image-5.-o
+mv: 不适用的选项 -- o
+Try 'mv --help' for more information.
+rename -iname to image-6.-iname
+mv: 不适用的选项 -- a
+Try 'mv --help' for more information.
+rename *.jpg to image-7.jpg
+mv: 无法获取'*.jpg' 的文件状态(stat): 没有那个文件或目录
+rename -type to image-8.-type
+mv: failed to access 'ype': 没有那个文件或目录
+rename f to image-9.f
+mv: 无法获取'f' 的文件状态(stat): 没有那个文件或目录
+rename -maxdepth to image-10.-maxdepth
+mv: 不适用的选项 -- m
+Try 'mv --help' for more information.
+rename 1} to image-11.1}
+mv: 无法获取'1}' 的文件状态(stat): 没有那个文件或目录
+find: 路径必须在表达式之前: name
+用法: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+find: 警告: 您在非选项参数 -iname 后定义了 -maxdepth 选项，但选项不是位置选项 (-maxdepth 影响在它之前或之后的指定的比较测试)。请在其它参数之前指定选项。
+
+rename ./file to image-1./file
+mv: 无法获取'./file' 的文件状态(stat): 没有那个文件或目录
+rename 2.txt to image-2.txt
+mv: 无法获取'2.txt' 的文件状态(stat): 没有那个文件或目录
+rename ./file1.txt to image-3.txt
+rename ./args.txt to image-4.txt
+rename ./sorted.txt to image-5.txt
+find: 路径必须在表达式之前: name
+用法: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+rename ./file to image-1./file
+mv: 无法获取'./file' 的文件状态(stat): 没有那个文件或目录
+rename 2.txt to image-2.txt
+mv: 无法获取'2.txt' 的文件状态(stat): 没有那个文件或目录
+rename ./image-3.txt to image-3.txt
+mv: './image-3.txt' 与'image-3.txt' 为同一文件
+rename ./image-5.txt to image-4.txt
+rename ./image-4.txt to image-5.txt
+find: 路径必须在表达式之前: name
+用法: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+rename ./file to image-1./file
+mv: 无法获取'./file' 的文件状态(stat): 没有那个文件或目录
+rename 2.txt to image-2.txt
+mv: 无法获取'2.txt' 的文件状态(stat): 没有那个文件或目录
+rename ./image-3.txt to image-3.txt
+mv: './image-3.txt' 与'image-3.txt' 为同一文件
+rename ./image-5.txt to image-4.txt
+find: 路径必须在表达式之前: name
+用法: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+rename ./file to image-1./file
+mv: 无法获取'./file' 的文件状态(stat): 没有那个文件或目录
+rename 2.txt to image-2.txt
+mv: 无法获取'2.txt' 的文件状态(stat): 没有那个文件或目录
+rename ./image-3.txt to image-3.txt
+mv: './image-3.txt' 与'image-3.txt' 为同一文件
+rename ./image-4.txt to image-4.txt
+mv: './image-4.txt' 与'image-4.txt' 为同一文件
+find: 路径必须在表达式之前: name
+用法: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+rename ./file to image-1./file
+mv: 无法获取'./file' 的文件状态(stat): 没有那个文件或目录
+rename 2.txt to image-2.txt
+mv: 无法获取'2.txt' 的文件状态(stat): 没有那个文件或目录
+rename ./image-3.txt to image-3.txt
+mv: './image-3.txt' 与'image-3.txt' 为同一文件
+rename ./image-4.txt to image-4.txt
+mv: './image-4.txt' 与'image-4.txt' 为同一文件
+find: 路径必须在表达式之前: name
+用法: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+find: 路径必须在表达式之前: name
+用法: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./rename.sh 
+rename ./image-3.txt to image-1.txt
+rename ./file_2.txt to image-2.txt
+rename ./image-4.txt to image-3.txt
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ chmod a+x checkword.sh 
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./checkword.sh  mewo
+not a word
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./checkword.sh  mewo[K[Kow
+is a word
+]0;kylin@kylin-X411: ~/git/bashLearn/chapter_2[01;32mkylin@kylin-X411[00m:[01;34m~/git/bashLearn/chapter_2[00m$ ./checkword.sh  meow
+is a word
+错误：No word lists can be found for the language "zh_CN".
+is a word
+]0;kylin@kylin-X41
