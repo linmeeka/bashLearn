@@ -29,4 +29,6 @@
 #　-prune：过滤。 过滤到.git的文件
 find ../ \( -path "*.git" -prune \) -o \( -type f \)
 
+# 将目录下所有cpp文件中的meow替换成nya
+find . -name *.cpp -exec sed -i 's/meow/nya/g' \{\} \;
 

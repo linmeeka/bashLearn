@@ -25,4 +25,8 @@ grep -b -o "meow" | wc -l
 # -i： 忽略大小写
 grep "meow" . -r -n -i
 
-grep "meow" . -r --include ".sh"
+# 在所有c cpp文件中搜索
+grep "meow" . -r --include *.{c,cpp}
+
+# 排除readme文件搜索
+grep "meow" . -r --exclude "README"
